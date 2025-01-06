@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "allowJs": true,  // 允许 .js 文件
+    "paths": {
+      "hong-editor-react": ["src/index.ts"],
+      "docs":["docs/*"]
+    }
+  },
+  "include": [".dumirc.ts", "**/*.ts", "**/*.tsx", "src/editor/extension/indent.js"]
+}
